@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/output-min.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -23,33 +23,35 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
+import css from './tech/img_5.png';
+import docker from './tech/img_9.png';
 import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
+import git from './tech/img_8.png';
+import html from './tech/htmlText.png';
 import javascript from './tech/javascript.png';
+import javascriptText from './tech/img_1.png';
 import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import reactjs from './tech/img_6.png';
 
+import typescript from './tech/typescript.png';
+import sql from './tech/img_10.png';
+import java from './tech/java.png';
+import javaText from './tech/img_4.png'
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
+import tw from './company/tw.png';
+import psvl from './company/psvl.png';
 import microverse from './company/microverse.png';
-
+import linkedin from './contact/linkedin.png';
+import githubLink from './contact/githubLink.png';
+import medium from './contact/medium.png';
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
-
 export {
   bwmap,
   nairobi,
@@ -76,15 +78,13 @@ export {
   docker,
   figma,
   git,
-  graphql,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
+  sql,
+  java,
+  javaText,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   komikult,
   leaderboard,
@@ -96,4 +96,10 @@ export {
   dcc,
   kelhel,
   microverse,
+  githubLink,
+  linkedin,
+  medium,
+  tw,
+  psvl,
+  javascriptText
 };

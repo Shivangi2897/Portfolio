@@ -20,19 +20,15 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          />
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif" alt="my-gif" width={"130px"} />
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
+          {/*<img*/}
+          {/*  src={logotext}*/}
+          {/*  alt="logo"*/}
+          {/*  className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"*/}
+          {/*/>*/}
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (

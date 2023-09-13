@@ -4,6 +4,7 @@ import { SectionWrapper } from '../hoc';
 import { technologies } from '../constants';
 import { styles } from '../styles';
 import { textVariant } from '../utils/motion';
+import {downloadHover} from "../assets/index.js";
 
 const Tech = () => {
   return (
@@ -15,8 +16,12 @@ const Tech = () => {
 
       <div className="flex flex-wrap justify-center gap-10 mt-14">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+          <div className="w-28 h-28" key={technology.name} onClick={console.log(technology.name)}>
+            <BallCanvas icon={technology.icon} text={technology.icon1} onClick={() => {
+                document
+                    .querySelector('.download-btn')
+                    .setAttribute('src', downloadHover);
+            }}/>
           </div>
         ))}
       </div>

@@ -1,32 +1,27 @@
 import {
-  frontend,
   backend,
-  ux,
-  prototyping,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  git,
-  figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
+  figma,
+  frontend,
+  git,
+  html,
+  java,
+  javaText,
+  javascript,
+  javascriptText,
   komikult,
   leaderboard,
   math,
   movie,
+  nodejs,
   nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  prototyping,
+  psvl,
+  reactjs,
+  sql,
+  tw,
+  typescript
 } from '../assets';
 
 export const navLinks = [
@@ -46,16 +41,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Frontend Developer',
+    icon: frontend,
   },
   {
     title: 'Software Prototyping',
@@ -65,206 +56,171 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Java',
+    icon: java,
+    icon1: javaText,
   },
   {
     name: 'JavaScript',
     icon: javascript,
+    icon1: javascriptText,
   },
   {
     name: 'TypeScript',
     icon: typescript,
+    icon1: css,
   },
   {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    icon1: reactjs,
   },
   {
     name: 'Node JS',
     icon: nodejs,
+    icon1: css,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'sql',
+    icon: sql,
+    icon1: sql,
   },
   {
     name: 'git',
     icon: git,
+    icon1: git,
   },
   {
     name: 'figma',
     icon: figma,
+    icon1: css,
   },
+
   {
     name: 'docker',
     icon: docker,
+    icon1: docker,
+  },
+  {
+    name: 'HTML 5',
+    icon: html,
+    icon1: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
+    icon1: css,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Application Developer Consultant',
+    company_name: 'Thoughtworks',
+    icon: tw,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'June 2022 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Software Engineer',
+    company_name: 'Pratisthan Software Ventures Ltd (Startup)',
+    icon: psvl,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Aug 2021 - March 2022',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'SearchFilter',
+    description: 'A filter based based functionality to search though inventory of available product',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'scss',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'mui',
         color: 'pink-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/Shivangip285/SearchFilter',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Pizza Store',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A pizza store to with steps to prepare variety of pizza using decorator design pattern ',
     tags: [
       {
-        name: 'react',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
         name: 'restapi',
         color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
+      }
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/Shivangip285/PizzaStore',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Employee RoleCares',
+    description: 'This is a employee targeted application to let employee avail all facility based on role like permanent, contractor and intern, using strategy design patttern ',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'restapi',
         color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
+      }
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/Shivangip285/EmployeeRole',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Pub sub with GCP',
+    description: `To make an event based pub sub application integrated with GCP`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'GCP',
         color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/Shivangip285/pubsub',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Object counter',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'A basic rest api application to follow all standard api pattern with TDD including unit, controller and integration test',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Mongo DB',
         color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/Shivangip285/ObjectCounter',
   },
 ];
 
